@@ -7,3 +7,4 @@ If you encounter any issues with DFRNT.tech, feel free to report them at [Github
 Support pages:
 
 * [Connect a TerminusDB data product](/connect-terminusdb)
+* [DFRNT.tech data model details](/about)
