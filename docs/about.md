@@ -78,3 +78,7 @@ Some traits have special meaning in DFRNT.tech and are used to build data struct
 ### Enum constants
 
 Enumerations (list of constant values) can be used to constrain properties to certain values. They are frequently used for categories and other sets of information.
+
+## Private beta
+
+We are releasing invitations in batches for [DFRNT.tech](https://dfrnt.tech) to ensure we learn from feedback and bring value to build a great product. Secure your invitation by signing up for your invitation at [dfrnt.com](https://dfrnt.com).
