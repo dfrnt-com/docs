@@ -1,6 +1,29 @@
 # What is DFRNT.tech
 
-DFRNT.tech is a client to TerminusX data products. Two main features are implemented: Data modelling and visualisation of document dependencies, it is a technical version of the upcoming tools for changemakers.
+DFRNT.tech is a client to TerminusX data products. Two main features are implemented: 
+
+* Visualisation of documents and document dependencies
+* Data modelling
+
+The current DFRNT.tech implementation is the data modelling backend for the upcoming changemaker tools.
+
+## Visualisation of documents and document dependencies
+
+Records and their interdependencies through records linking are visualised using the Canvas section. By searching for, or browsing the data model, records are added to the Canvas. Any connections between them are visualized using directional links primarily through an acyclic directed graph. Cycles in the graph are supported but does not always render great graphs.
+
+### Canvas
+
+Inbound and outbound linked records can be added through the menu available through clicking on each record.
+
+The canvas can be exported to PNG by clicking the canvas, which is also how to clear the canvas.
+
+### Render and browse records as Markdown documents
+
+Document contents can be viewed by opening a record through the canvas, or by browsing for records through the Data Model.
+
+`Markdown` traits (with a mandatory or optional string field called `markdown`) will be rendered as markdown text, useful for making nodes browseable and contain lengthier texts. Pictures are not supported, but may be possible to use through data: elements for the brave.
+
+By using `Markdown` documents and use markdown links, documents can be made browseable like a Wiki, using relative links such as `../Type/documentId`, with the ids that can be copied using the clipboard icon in the user interface.
 
 ## Data modelling
 
