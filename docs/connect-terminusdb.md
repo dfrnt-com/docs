@@ -11,7 +11,7 @@ There are two steps to get started:
 
 It's easiest to bring up a text editor to save the values you need for later.
 
-1. Join the TerminusX Public Beta at [TerminusDB](https://terminusdb.com/)
+1. Join the TerminusX Public Beta at [TerminusX](https://terminusdb.com/products/terminusx/)
 1. Sign up for an account (Remember that the **team name** will be used later)
 1. Confirm your email address
 1. Login to [https://dashboard.terminusdb.com](https://dashboard.terminusdb.com) to create your **data product**
