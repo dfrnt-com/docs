@@ -1,9 +1,11 @@
-# What is DFRNT.tech
+# What is DFRNT.tech (BETA)
 
 DFRNT.tech is a client to TerminusX data products. Two main features are implemented: 
 
 * Visualisation of documents and document dependencies
 * Data modelling
+
+To dive deep in to TerminusDB, consider using their documentation, it is highly recommended: [https://terminusdb.com/docs/](https://terminusdb.com/docs/). Most questions on how to model documents in DFRNT.tech is likely answered there.
 
 The current DFRNT.tech implementation is the data modelling backend for the upcoming changemaker tools.
 
