@@ -27,9 +27,26 @@ Document contents can be viewed by opening a record through the canvas, or by br
 
 By using `Markdown` documents and use markdown links, documents can be made browseable like a Wiki, using relative links such as `../Type/documentId`, with the ids that can be copied using the clipboard icon in the user interface.
 
+Trait definition for the `Markdown` trait (add a trait, paste below into the definition tab):
+
+```
+{
+  "@type": "Class",
+  "@key": {
+    "@type": "Random"
+  },
+  "@id": "Markdown",
+  "@inherits": [],
+  "@subdocument": [],
+  "markdown": "xsd:string"
+}
+```
+
 ## Data modelling
 
 The data modelling capabilities of DFRNT.tech involves five categories of data structures: Records, Properties, Types, Traits and Enums.
+
+The data modeller provides 1:1 mapping between the graphical field definitions and the JSON-LD schema definitions for Types, Traits and Enums from TerminusDB, which makes it a great playground to exchange JSON-LD data definitions.
 
 ### Records
 
