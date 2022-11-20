@@ -1,4 +1,4 @@
-# DFRNT.tech documentation
+# DFRNT.com documentation
 
 This is where we publish documentation for the [dfrnt.tech](https://dfrnt.tech?utm_source=dfrnt-support) collaborative semantic knowledge graph client for the TerminusDB data mesh. Sign up at [dfrnt.com](https://dfrnt.com?utm_source=dfrnt-support).
 
