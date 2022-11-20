@@ -1,10 +1,10 @@
-# DFRNT.tech documentation
+# DFRNT.com documentation
 
-This is where we publish documentation for the [dfrnt.tech](https://dfrnt.tech) collaborative semantic knowledge graph client for the TerminusDB data mesh. If you have not yet received an invitation, secure yours by signing up for one at [dfrnt.com](https://dfrnt.com).
+This is where we publish documentation for the [dfrnt.com](https://dfrnt.com), a collaborative semantic knowledge graph client for TerminusDB graph data products. Sign up at [dfrnt.com](https://dfrnt.com/signup/).
 
-If you encounter any issues with DFRNT.tech, feel free to report them at [Github issue](https://github.com/dfrnt-com/support/issues).
+If you encounter any issues with DFRNT.com, do report them at [Github issue](https://github.com/dfrnt-com/support/issues) to help us fix them!.
 
 Support pages:
 
 * [Connect a TerminusDB data product](/connect-terminusdb)
-* [DFRNT.tech data model details](/about)
+* [DFRNT.com data model details](/about)
