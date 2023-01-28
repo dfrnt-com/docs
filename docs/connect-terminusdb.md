@@ -1,13 +1,13 @@
-# How to connect dfrnt.tech with TerminusDB
+# How to connect dfrnt.com with TerminusDB
 
-DFRNT.tech relies on TerminusDB as the backing data mesh, where your data is stored. To build your data mesh, you need a data product at TerminusDB.
+DFRNT.com helps you manage data products that are either hosted for you (with the subscription) or connected via API and stored at TerminusDB for the free option. To get started for free, you need to connect your data product instance(s) at TerminusDB.
 
 There are two steps to get started: 
 
-1. setup a data product at TerminusDB
-2. connect the data product to DFNRT.tech.
+1. get an account, and setup a data product at TerminusDB
+2. connect the data product to DFNRT.com.
 
-## How to create your data product in TerminusX/TerminusDB
+## Step 1: Create your data product in TerminusX/TerminusDB
 
 It's easiest to bring up a text editor to save the values you need for later.
 
@@ -25,19 +25,19 @@ You should now have the three things you need to connect Zebra to your data prod
 * A `Data Product ID` (See about the Data Product)
 * The `API key` (Create one in the profile, you can create as many as you need)
 
-## Connect Zebra to TerminusDB
+## Step 2: Connect DFRNT.com to TerminusDB
 
-1. Sign up for Zebra through the sign-up/invitation link you received
-1. Once logged in to [DFRNT.tech](https://dfrnt.tech), go to Settings/API Keys
+1. Sign up for DFRNT.com through the sign-up on the homepage [dfrnt.com](https://dfrnt.com)
+1. Once logged in to [DFRNT.com](https://dfrnt.com), go to Settings/API Keys. Or use the guided setup at `Learn More/Start Free`.
 1. Add your `Settings/API Key`: Fill in the TerminusDB Team (that your captured above), "Token" and the API Token (see above)
-1. Add TerminusDB connection in `Settings/Workspaces`
+1. Complete filling in the details for your team/instance; the setup is similar for the localhost subscription
   1. Add TerminusX Team: Fill in TerminusDB Team (connects using the server-side vaulted API token) as both team name and team reference
-  1. Set your commit id, your likely want to use your email address (like you would if you use git)
-1. Create a DFRNT.tech workspace and menu entry for it
+  1. Set the id to commit as, you likely want to use your email address (like you would if you use git)
+1. Create a named TerminusDB connection pointer to a data product branch in your team/instance, or create a sandbox data product
   1. Select your `TerminusDB Team`
   1. Enter your `TerminusDB data product id` (see above)
   1. Set the branch you want to be working on (usually `main`)
 
 If all went well, you should now be ready to add your schema and data in the Model Editor.
 
-If you encounter any errors, feel free to submit an issue at [Github/issues](https://github.com/dfrnt-com/support/issues). Don't share any secret information though, like the API token.
+If you encounter any errors, feel free to submit an issue at [Github/issues](https://github.com/dfrnt-com/support/issues). Be careful to check that you share no secret information, like the API token if you copy/paste a screenshot.
