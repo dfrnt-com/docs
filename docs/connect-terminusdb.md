@@ -31,12 +31,12 @@ You should now have the three things you need to connect Zebra to your data prod
 1. Once logged in to [DFRNT.com](https://dfrnt.com), go to Settings/API Keys. Or use the guided setup at `Learn More/Start Free`.
 1. Add your `Settings/API Key`: Fill in the TerminusDB Team (that your captured above), "Token" and the API Token (see above)
 1. Complete filling in the details for your team/instance; the setup is similar for the localhost subscription
-  1. Add TerminusX Team: Fill in TerminusDB Team (connects using the server-side vaulted API token) as both team name and team reference
-  1. Set the id to commit as, you likely want to use your email address (like you would if you use git)
-1. Create a named TerminusDB connection pointer to a data product branch in your team/instance, or create a sandbox data product
-  1. Select your `TerminusDB Team`
-  1. Enter your `TerminusDB data product id` (see above)
-  1. Set the branch you want to be working on (usually `main`)
+1. Team/Instance: Fill in TerminusDB Team (connects using the server-side vaulted API token) as both team name and team reference
+1. Team/Instance: Set the id to commit as, you likely want to use your email address (like you would if you use git)
+1. Create a named TerminusDB connection pointer to a data product branch in your team/instance, or create a sandbox data product. In settings, this is part of the team-specific settings.
+1. Pointer creation: Select your `TerminusDB Team`
+1. Pointer creation: Enter your `TerminusDB data product id` (see above)
+1. Pointer creation: Set the branch you want to be working on (usually `main`)
 
 If all went well, you should now be ready to add your schema and data in the Model Editor.
 
